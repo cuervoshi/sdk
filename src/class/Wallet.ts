@@ -390,7 +390,7 @@ export class Wallet extends Identity {
               {
                 kinds: [9735],
                 since: parsedZapRequest.created_at,
-                '#p': [getTagValue(parsedZapRequest.tags, 'p')] ?? [],
+                '#p': getTagValue(parsedZapRequest.tags, 'p') ? [getTagValue(parsedZapRequest.tags, 'p')] : [],
               },
               { closeOnEose: true },
               NDKRelaySet.fromRelayUrls(this.federation.relaysList, this.ndk, true),

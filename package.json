@@ -1,6 +1,6 @@
 {
   "name": "@lawallet/sdk",
-  "version": "0.1.45",
+  "version": "0.1.46",
   "description": "LaWallet software dev kit",
   "type": "module",
   "private": false,
@@ -36,7 +36,7 @@
     "ws": "^8.18.0"
   },
   "dependencies": {
-    "@nostr-dev-kit/ndk": "2.10.7",
+    "@nostr-dev-kit/ndk": "2.14.23",
     "nostr-tools": "npm:@lawallet/nostr-tools@2.7.2"
   },
   "overrides": {
